@@ -11,10 +11,17 @@ This is a simple Flask web application that allows users to create and manage no
 ## Usage
 
 1. Navigate to `http://localhost:5000` in your web browser.
-2. If you have not already done so, view the home page by opening the `assets/home.html` file in your web browser.
-3. To create a new account, view the signup page by opening the `assets/signup.html` file in your web browser.
-4. Log in with your new account by clicking the "Login" link in the navigation bar.
-5. Create a new note by typing your note text into the input field and clicking the "AddNote" button.
-6. View your notes on the home page. You can delete a note by clicking the "x" button on the note card.
+2. To create a new account, view the signup page in your web browser
+
+ ![Sign Up page](assets/signup.PNG)
+   
+   
+5. Log in with your new account by clicking the "Login" link in the navigation bar.
+6. The home page would then appear.
+
+ ![HOME page](assets/home.PNG)
+ 
+8. Create a new note by typing your note text into the input field and clicking the "AddNote" button.
+9. View your notes on the home page. You can delete a note by clicking the "x" button on the note card.
 
 7. When you're finished, log out by clicking the "Logout" link in the navigation bar.
