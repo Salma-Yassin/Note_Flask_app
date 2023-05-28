@@ -1,13 +1,13 @@
 {% extends "base.html" %} {% block title %}Home{% endblock %} {% block content%}
 
-<h1 align="center">Notes</h1>
+<h1 style="text-align: center;">Notes</h1>
 <div class="row row-cols-1 row-cols-md-2 g-4">
   {% for note in user.notes %}
   <div class="col">
     <div class="card text-dark bg-light mb-3">
       <div class="card-header">
         <p class="font-weight-bold">
-          Note {{i}}
+          Note {{loop.index}}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -42,7 +42,7 @@
 <form method="POST">
   <textarea name="note" id="note" class="form-control"></textarea>
   <br />
-  <div align="center">
+  <div style="text-align: center;">
     <button type="submit" class="btn btn-primary">Add Note</button>
   </div>
 </form>
